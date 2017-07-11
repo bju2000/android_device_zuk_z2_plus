@@ -211,6 +211,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl
 
+#Lib Shims
+PRODUCT_PACKAGES += \
+    libc_shim
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
